@@ -1,0 +1,410 @@
+{
+  "_ayuda": [
+    "Configuración de la galería de evidencias. Después de editar este archivo o de agregar fotos,",
+    "ejecuta desde la carpeta del portafolio:  python tools/build_gallery.py",
+    "· collections: filtros de la galería, en el orden en que aparecen.",
+    "· sets: una entrada por carpeta de fotos. 'folder' es la ruta dentro de 'source' (acentos opcionales).",
+    "· photos: pie de foto ES/EN por archivo (nombre sin extensión); el orden aquí es el orden en pantalla.",
+    "  Las fotos que no aparezcan aquí se agregan al final, ordenadas por fecha, con el pie de foto del set.",
+    "  'featured': n  → aparece en el mosaico de la página de inicio (n = posición).",
+    "· exclude: archivos que no se publican.",
+    "· Una carpeta nueva que no esté en 'sets' se publica sola en la colección 'Otras evidencias'."
+  ],
+  "source": "../CVXimena/fotos",
+
+  "collections": [
+    { "id": "hidromiel", "icon": "wine", "color": "#D9921A",
+      "es": "Hidromiel «Zumbido»", "en": "«Zumbido» mead",
+      "ctx": { "es": "Taller de Procesamiento de Alimentos · UTM", "en": "Food Processing Pilot Plant · UTM" },
+      "period": { "es": "Ene – May 2026", "en": "Jan – May 2026" },
+      "page": "proyectos/hidromiel-zumbido.html" },
+    { "id": "microfiltracion", "icon": "funnel", "color": "#2A8C82",
+      "es": "Microfiltración de kombucha", "en": "Kombucha microfiltration",
+      "ctx": { "es": "Laboratorio de Bioprocesos · UTM", "en": "Bioprocess Laboratory · UTM" },
+      "period": { "es": "Oct – Dic 2025", "en": "Oct – Dec 2025" },
+      "page": "proyectos/microfiltracion-kombucha.html" },
+    { "id": "etnofood", "icon": "sprout", "color": "#4F7A2C",
+      "es": "EtnoFood · I+D de nuevos productos", "en": "EtnoFood · New product R&D",
+      "ctx": { "es": "Prácticas profesionales", "en": "Professional internship" },
+      "period": { "es": "Jul – Ago 2025", "en": "Jul – Aug 2025" },
+      "page": "experiencia/etnofood.html" },
+    { "id": "cerveceria", "icon": "beer", "color": "#9A5B1E",
+      "es": "La Fermentería · Cerveza artesanal", "en": "La Fermentería · Craft beer",
+      "ctx": { "es": "Prácticas profesionales · Producción", "en": "Professional internship · Production" },
+      "period": { "es": "Jul – Sep 2024", "en": "Jul – Sep 2024" },
+      "page": "experiencia/la-fermenteria.html" },
+    { "id": "bebida", "icon": "leaf", "color": "#A3214F",
+      "es": "Bebida adaptógena", "en": "Adaptogenic drink",
+      "ctx": { "es": "Laboratorio de Bioprocesos · UTM", "en": "Bioprocess Laboratory · UTM" },
+      "period": { "es": "Oct – Dic 2024", "en": "Oct – Dec 2024" },
+      "page": "proyectos/bebida-adaptogena.html" },
+    { "id": "lacteos", "icon": "milk", "color": "#5C82A8",
+      "es": "Lácteos", "en": "Dairy",
+      "ctx": { "es": "Talleres de Procesamiento de Alimentos · UTM", "en": "Food Processing Pilot Plant · UTM" },
+      "period": { "es": "2024 – 2025", "en": "2024 – 2025" },
+      "page": "proyectos/planta-piloto.html#lacteos" },
+    { "id": "carnicos", "icon": "ham", "color": "#C8462B",
+      "es": "Cárnicos", "en": "Meat products",
+      "ctx": { "es": "Talleres de Procesamiento de Alimentos · UTM", "en": "Food Processing Pilot Plant · UTM" },
+      "period": { "es": "Abr – May 2024", "en": "Apr – May 2024" },
+      "page": "proyectos/planta-piloto.html#carnicos" },
+    { "id": "cereales", "icon": "wheat", "color": "#C58A3E",
+      "es": "Cereales y panificación", "en": "Cereals & baking",
+      "ctx": { "es": "Talleres de Procesamiento de Alimentos · UTM", "en": "Food Processing Pilot Plant · UTM" },
+      "period": { "es": "Dic 2024 – Ene 2025", "en": "Dec 2024 – Jan 2025" },
+      "page": "proyectos/planta-piloto.html#cereales" },
+    { "id": "frutas", "icon": "cherry", "color": "#DD7A1E",
+      "es": "Frutas y hortalizas", "en": "Fruits & vegetables",
+      "ctx": { "es": "Talleres de Procesamiento de Alimentos · UTM", "en": "Food Processing Pilot Plant · UTM" },
+      "period": { "es": "Mar – Jun 2025", "en": "Mar – Jun 2025" },
+      "page": "proyectos/planta-piloto.html#frutas" }
+  ],
+
+  "other": { "id": "otros", "icon": "images", "color": "#76695D", "es": "Otras evidencias", "en": "Other evidence" },
+
+  "sets": [
+    { "id": "hidromiel", "folder": "hidromiel", "collection": "hidromiel",
+      "es": "Hidromiel «Zumbido»", "en": "«Zumbido» mead",
+      "caption": { "es": "Desarrollo del hidromiel «Zumbido».", "en": "Developing «Zumbido» mead." },
+      "photos": {
+        "98F285C8-629F-429A-BAF0-676FD86D1F6A": { "es": "Ximena con Zumbido, el hidromiel de frutos rojos que desarrolló.", "en": "Ximena with Zumbido, the red-fruit mead she developed.", "featured": 1 },
+        "IMG_0212": { "es": "Insumos y protocolo de elaboración del hidromiel.", "en": "Supplies and production protocol for the mead." },
+        "IMG_0409": { "es": "Incorporación de la miel al mosto.", "en": "Adding honey to the must." },
+        "IMG_0416": { "es": "Control de temperatura durante la preparación del mosto.", "en": "Temperature control while preparing the must." },
+        "IMG_0418": { "es": "Mosto de miel en el garrafón de fermentación.", "en": "Honey must in the fermentation carboy." },
+        "IMG_0423": { "es": "Inicio de la fermentación en garrafón con trampa de aire.", "en": "Fermentation under way in a carboy fitted with an airlock." },
+        "IMG_0426": { "es": "Dos lotes en fermentación, cada uno con su trampa de aire.", "en": "Two batches fermenting, each under its own airlock." },
+        "IMG_0503": { "es": "Filtrado del hidromiel con frutos rojos.", "en": "Straining the red-fruit mead." },
+        "IMG_1082": { "es": "Muestra para evaluación sensorial durante el proceso.", "en": "Sample taken for sensory evaluation during the process." },
+        "IMG_1256": { "es": "Fermentación con frutos rojos en la planta piloto.", "en": "Red-fruit fermentation in the pilot plant." },
+        "IMG_1315": { "es": "Lotes identificados durante la maduración.", "en": "Labeled batches during maturation." },
+        "IMG_2024": { "es": "Hidromiel en maduración y clarificación.", "en": "Mead maturing and clarifying." },
+        "IMG_2138": { "es": "Hidromiel clarificado, con su color rojo característico.", "en": "Clarified mead with its characteristic red color." },
+        "IMG_2152": { "es": "Embotellado y taponado.", "en": "Bottling and capping." },
+        "IMG_2383": { "es": "Presentación comercial: botellas y cartel informativo de Zumbido.", "en": "Commercial presentation: Zumbido bottles and product poster.", "featured": 2 },
+        "IMG_2386": { "es": "Montaje del exhibidor para la presentación del producto.", "en": "Setting up the display for the product presentation." },
+        "IMG_2508": { "es": "Botellas de Zumbido con su etiqueta.", "en": "Zumbido bottles with their label." },
+        "IMG_2517": { "es": "Zumbido en distintas presentaciones de botella.", "en": "Zumbido in different bottle formats." }
+      } },
+
+    { "id": "microfiltracion", "folder": "microfiltracion kombucha", "collection": "microfiltracion",
+      "es": "Microfiltración de kombucha", "en": "Kombucha microfiltration",
+      "caption": { "es": "Microfiltración de kombucha.", "en": "Kombucha microfiltration." },
+      "exclude": ["IMG_7666"],
+      "photos": {
+        "IMG_7932": { "es": "Comparación de claridad entre la muestra sin filtrar y el permeado.", "en": "Clarity comparison between the unfiltered sample and the permeate.", "featured": 3 },
+        "IMG_7878": { "es": "Detalle de los sólidos en suspensión de la kombucha.", "en": "Close-up of the kombucha's suspended solids." },
+        "IMG_7855": { "es": "Medición del volumen de kombucha en probeta.", "en": "Measuring kombucha volume in a graduated cylinder." },
+        "IMG_7892": { "es": "Sistema de microfiltración: bomba peristáltica, portafiltros y manómetro.", "en": "Microfiltration setup: peristaltic pump, filter holder and pressure gauge." },
+        "IMG_7896": { "es": "Recolección del permeado en matraz.", "en": "Collecting the permeate in a flask." },
+        "IMG_7904": { "es": "Volumen de permeado medido en probeta.", "en": "Permeate volume measured in a graduated cylinder." },
+        "IMG_7917": { "es": "Antes y después: kombucha sin filtrar (izq.) y microfiltrada (der.).", "en": "Before and after: unfiltered (left) and microfiltered (right) kombucha." }
+      } },
+
+    { "id": "etno-kombucha", "folder": "desarrollo nuevos productos etno/kombucha", "collection": "etnofood",
+      "es": "Kombucha", "en": "Kombucha",
+      "caption": { "es": "Desarrollo de kombucha en EtnoFood.", "en": "Kombucha development at EtnoFood." },
+      "photos": {
+        "17309431-e0f9-4f65-ab1b-b0e2f2f43520": { "es": "Línea de productos fermentados en desarrollo.", "en": "Line of fermented products under development." },
+        "IMG_0071": { "es": "SCOBY, el cultivo simbiótico de bacterias y levaduras de la kombucha.", "en": "SCOBY, kombucha's symbiotic culture of bacteria and yeast." },
+        "IMG_0236": { "es": "Manejo del SCOBY entre lotes.", "en": "Handling the SCOBY between batches." },
+        "IMG_1924": { "es": "Lotes de kombucha en fermentación, identificados por número y fecha.", "en": "Kombucha batches fermenting, labeled by number and date." },
+        "IMG_2358": { "es": "Retiro del SCOBY al final de la fermentación.", "en": "Removing the SCOBY at the end of fermentation." },
+        "IMG_2362": { "es": "Lote en fermentación con su etiqueta de control.", "en": "Fermenting batch with its control label." },
+        "IMG_2407": { "es": "Inspección del SCOBY.", "en": "Inspecting the SCOBY." },
+        "IMG_2422": { "es": "Seguimiento del proceso en el área de desarrollo.", "en": "Process follow-up in the development area." },
+        "IMG_2427": { "es": "Fermentadores de kombucha.", "en": "Kombucha fermenters." },
+        "IMG_2460": { "es": "Nuevo SCOBY formado durante la fermentación.", "en": "New SCOBY grown during fermentation." },
+        "IMG_2526": { "es": "Filtrado y embotellado de la kombucha.", "en": "Straining and bottling the kombucha." },
+        "IMG_2523": { "es": "Kombucha embotellada.", "en": "Bottled kombucha." }
+      } },
+
+    { "id": "etno-sensorial", "folder": "desarrollo nuevos productos etno/kombucha/evaluacion sensorial", "collection": "etnofood",
+      "es": "Evaluación sensorial", "en": "Sensory evaluation",
+      "caption": { "es": "Evaluación sensorial con panelistas.", "en": "Sensory evaluation with panelists." },
+      "photos": {
+        "IMG_2590": { "es": "Muestras codificadas y cuestionario de evaluación.", "en": "Coded samples and evaluation questionnaire.", "featured": 5 },
+        "IMG_2552": { "es": "Instrucciones a una panelista antes de la prueba.", "en": "Briefing a panelist before the test." },
+        "IMG_2556": { "es": "Panelistas durante la evaluación.", "en": "Panelists during the evaluation." },
+        "IMG_2565": { "es": "Evaluación del aroma de una muestra.", "en": "Evaluating a sample's aroma." },
+        "IMG_2568": { "es": "Registro de respuestas en el cuestionario.", "en": "Recording answers on the questionnaire." },
+        "IMG_2577": { "es": "Panelista evaluando las muestras.", "en": "Panelist assessing the samples." },
+        "IMG_2606": { "es": "Cuestionarios completados para el análisis de aceptación.", "en": "Completed questionnaires for the acceptance analysis." }
+      } },
+
+    { "id": "etno-salsa", "folder": "desarrollo nuevos productos etno/salsa", "collection": "etnofood",
+      "es": "Salsa tradicional", "en": "Traditional salsa",
+      "caption": { "es": "Desarrollo de salsa tradicional en EtnoFood.", "en": "Traditional salsa development at EtnoFood." },
+      "photos": {
+        "IMG_1521": { "es": "Limpieza y desvenado de chiles secos.", "en": "Cleaning and deveining dried chiles." },
+        "IMG_1532": { "es": "Molienda tradicional en molcajete.", "en": "Traditional grinding in a molcajete." },
+        "IMG_2352": { "es": "Ingredientes pesados para la formulación.", "en": "Ingredients weighed for the formulation." },
+        "IMG_2515": { "es": "Salsa envasada en frasco hermético.", "en": "Salsa packed in an airtight jar." },
+        "IMG_2631": { "es": "Chiles rehidratados y ajo en el molcajete.", "en": "Rehydrated chiles and garlic in the molcajete." },
+        "IMG_2632": { "es": "Molido de los ingredientes.", "en": "Grinding the ingredients." },
+        "IMG_2637": { "es": "Salsa de molcajete terminada.", "en": "Finished molcajete salsa." }
+      } },
+
+    { "id": "etno-tofu", "folder": "desarrollo nuevos productos etno/tofu", "collection": "etnofood",
+      "es": "Tofu", "en": "Tofu",
+      "caption": { "es": "Desarrollo de tofu en EtnoFood.", "en": "Tofu development at EtnoFood." },
+      "photos": {
+        "IMG_2479": { "es": "Pesado y mezclado de la formulación en EtnoFood.", "en": "Weighing and mixing the formulation at EtnoFood.", "featured": 4 },
+        "IMG_2480": { "es": "Control de peso durante la elaboración.", "en": "Weight control during production." },
+        "IMG_2467": { "es": "Filtrado de la base en manta de cielo.", "en": "Straining the base through cheesecloth." },
+        "IMG_2500": { "es": "Cocción de la mezcla.", "en": "Cooking the mixture." },
+        "IMG_2508": { "es": "Tofu cuajado y cortado en cubos.", "en": "Set tofu cut into cubes." },
+        "IMG_2511": { "es": "Cubos de tofu.", "en": "Tofu cubes." },
+        "IMG_1890": { "es": "Comparación de dos formulaciones de tofu.", "en": "Two tofu formulations side by side." },
+        "71cd3f8a-aa20-4f99-bf53-f22631eb282b": { "es": "Prototipo de tofu con hierbas y chile.", "en": "Tofu prototype with herbs and chile." },
+        "IMG_2591": { "es": "Cubos de tofu dorados.", "en": "Golden tofu cubes." },
+        "IMG_2628": { "es": "Presentación final del tofu.", "en": "Final tofu presentation." }
+      } },
+
+    { "id": "cerveceria", "folder": "cervecería", "collection": "cerveceria",
+      "es": "Producción de cerveza artesanal", "en": "Craft beer production",
+      "caption": { "es": "Producción de cerveza artesanal en La Fermentería.", "en": "Craft beer production at La Fermentería." },
+      "photos": {
+        "IMG_0711": { "es": "Sala de cocción de tres ollas con bombas de recirculación.", "en": "Three-vessel brewhouse with recirculation pumps." },
+        "IMG_0701": { "es": "Equipo de cocción conectado para la transferencia del mosto.", "en": "Brewing kettles connected for wort transfer." },
+        "IMG_0706": { "es": "Recirculación del mosto durante la maceración.", "en": "Wort recirculation during the mash." },
+        "IMG_0715": { "es": "Lavado del grano con brazo rociador.", "en": "Sparging the grain bed with a sparge arm." },
+        "IMG_0723": { "es": "Lavado del grano visto desde arriba.", "en": "Sparging, seen from above." },
+        "IMG_0709": { "es": "Remolino (whirlpool) del mosto en la olla.", "en": "Wort whirlpool in the kettle." },
+        "IMG_1289": { "es": "Tanques de fermentación cilindrocónicos.", "en": "Cylindroconical fermentation tanks.", "featured": 6 },
+        "IMG_1318": { "es": "Evaluación sensorial de una cerveza de la planta.", "en": "Sensory evaluation of one of the brewery's beers." },
+        "IMG_1300": { "es": "Producto terminado: cerveza oscura embotellada.", "en": "Finished product: bottled dark beer." }
+      } },
+
+    { "id": "bebida-adaptogena", "folder": "bebida adaptogenica", "collection": "bebida",
+      "es": "Bebida adaptógena de hoja de nanche", "en": "Adaptogenic nanche-leaf drink",
+      "caption": { "es": "Desarrollo de la bebida adaptógena.", "en": "Developing the adaptogenic drink." },
+      "photos": {
+        "IMG_8434": { "es": "Hoja de nanche seca y molida, materia prima del extracto.", "en": "Dried, ground nanche leaf — the raw material for the extract." },
+        "IMG_8442": { "es": "Extracto vegetal para la evaluación de compuestos bioactivos.", "en": "Plant extract for the evaluation of bioactive compounds." },
+        "IMG_8448": { "es": "Extracto clarificado en frasco de 50 mL.", "en": "Clarified extract in a 50 mL bottle." },
+        "IMG_8890": { "es": "Extracto etiquetado para su análisis.", "en": "Labeled extract ready for analysis." },
+        "IMG_5726": { "es": "Filtración del extracto.", "en": "Filtering the extract." },
+        "IMG_5721": { "es": "Preparación de la pulpa de frambuesa.", "en": "Preparing the raspberry pulp." },
+        "IMG_5750": { "es": "Prototipo final: bebida adaptógena de hoja de nanche con frambuesa y miel.", "en": "Final prototype: adaptogenic nanche-leaf drink with raspberry and honey.", "featured": 7 }
+      } },
+
+    { "id": "lacteos-queso", "folder": "desarrollo de productos/lácteos/queso", "collection": "lacteos",
+      "es": "Queso fresco", "en": "Fresh cheese",
+      "caption": { "es": "Elaboración de queso fresco.", "en": "Making fresh cheese." },
+      "photos": {
+        "IMG_0003": { "es": "Corte de la cuajada en la tina quesera.", "en": "Cutting the curd in the cheese vat." },
+        "IMG_0030": { "es": "Agitación de la cuajada.", "en": "Stirring the curd." },
+        "IMG_0047": { "es": "Cuajada lista para el desuerado.", "en": "Curd ready for whey drainage." },
+        "IMG_0064": { "es": "Moldeado de la cuajada.", "en": "Molding the curd." },
+        "IMG_0085": { "es": "Queso fresco desmoldado.", "en": "Unmolded fresh cheese.", "featured": 9 },
+        "IMG_0140": { "es": "Presentación del queso en tabla de degustación.", "en": "Cheese presented on a tasting board." }
+      } },
+
+    { "id": "lacteos-yogurt", "folder": "desarrollo de productos/lácteos/yogurt", "collection": "lacteos",
+      "es": "Yogurt", "en": "Yogurt",
+      "caption": { "es": "Elaboración de yogurt.", "en": "Making yogurt." },
+      "photos": {
+        "IMG_4196": { "es": "Control de temperatura de la leche.", "en": "Monitoring the milk temperature." },
+        "IMG_4202": { "es": "Enfriamiento de la leche a temperatura de inoculación.", "en": "Cooling the milk to inoculation temperature." },
+        "IMG_4191": { "es": "Incubación en contenedor térmico.", "en": "Incubation in an insulated container." },
+        "IMG_4330": { "es": "Yogurt tras la fermentación.", "en": "Yogurt after fermentation." },
+        "IMG_4331": { "es": "Textura del yogurt.", "en": "Yogurt texture." }
+      } },
+
+    { "id": "lacteos-helado", "folder": "desarrollo de productos/lácteos/carpeta sin título", "collection": "lacteos",
+      "es": "Helado de fresa", "en": "Strawberry ice cream",
+      "caption": { "es": "Elaboración de helado de fresa.", "en": "Making strawberry ice cream." },
+      "photos": {
+        "IMG_5607": { "es": "Pesado de ingredientes.", "en": "Weighing ingredients." },
+        "IMG_5627": { "es": "Preparación de la mezcla base.", "en": "Preparing the base mix." },
+        "IMG_5641": { "es": "Licuado de la mezcla con fresa.", "en": "Blending the mix with strawberry." },
+        "IMG_5648": { "es": "Incorporación de fresa en trozos.", "en": "Folding in diced strawberries." },
+        "IMG_5633": { "es": "Congelación en garrafa con hielo y sal.", "en": "Freezing in a garrafa with ice and salt." },
+        "IMG_5675": { "es": "Helado de fresa terminado.", "en": "Finished strawberry ice cream." },
+        "IMG_5686": { "es": "Degustación del helado.", "en": "Ice cream tasting." }
+      } },
+
+    { "id": "lacteos-pruebas", "folder": "desarrollo de productos/lácteos/pruebas fisicoquim", "collection": "lacteos",
+      "es": "Pruebas de plataforma en leche", "en": "Milk platform tests",
+      "caption": { "es": "Pruebas fisicoquímicas en leche.", "en": "Physicochemical tests on milk." },
+      "photos": {
+        "IMG_4205": { "es": "Toma de muestra de leche junto al mechero.", "en": "Sampling milk next to the Bunsen burner." },
+        "IMG_4229": { "es": "Prueba de neutralizantes en distintos tipos de leche.", "en": "Neutralizer test on different types of milk." },
+        "IMG_4230": { "es": "Pruebas en portaobjetos.", "en": "Slide tests." },
+        "IMG_4244": { "es": "Resultados: leche bronca frente a leche entera.", "en": "Results: raw milk versus whole milk." }
+      } },
+
+    { "id": "carnicos-chorizo", "folder": "desarrollo de productos/cárnicos/chorizo", "collection": "carnicos",
+      "es": "Chorizo", "en": "Chorizo",
+      "caption": { "es": "Elaboración de chorizo.", "en": "Making chorizo." },
+      "photos": {
+        "IMG_5557": { "es": "Molienda de la carne.", "en": "Grinding the meat." },
+        "IMG_5564": { "es": "Mezcla cárnica condimentada.", "en": "Seasoned meat mixture." },
+        "IMG_5673": { "es": "Chorizos embutidos y atados.", "en": "Stuffed and tied chorizo links.", "featured": 11 },
+        "IMG_5692": { "es": "Chorizos colgados en la cámara de secado.", "en": "Chorizo hanging in the drying chamber." },
+        "IMG_5858": { "es": "Chorizos al final del secado.", "en": "Chorizo at the end of drying." }
+      } },
+
+    { "id": "carnicos-jamon", "folder": "desarrollo de productos/cárnicos/jamon", "collection": "carnicos",
+      "es": "Jamón cocido", "en": "Cooked ham",
+      "caption": { "es": "Elaboración de jamón cocido.", "en": "Making cooked ham." },
+      "photos": {
+        "IMG_4252": { "es": "Preparación de la carne para jamón.", "en": "Preparing the meat for ham." },
+        "IMG_4261": { "es": "Carne en salmuera de curado.", "en": "Meat in curing brine." },
+        "IMG_4269": { "es": "Jamón cocido terminado.", "en": "Finished cooked ham." }
+      } },
+
+    { "id": "carnicos-analisis", "folder": "desarrollo de productos/cárnicos/analisis fisicoquimicas", "collection": "carnicos",
+      "es": "Análisis fisicoquímicos", "en": "Physicochemical analysis",
+      "caption": { "es": "Análisis fisicoquímicos de productos cárnicos.", "en": "Physicochemical analysis of meat products." },
+      "photos": {
+        "IMG_1291": { "es": "Preparación de muestras cárnicas para análisis.", "en": "Preparing meat samples for analysis." },
+        "IMG_1314": { "es": "Titulación durante los análisis.", "en": "Titration during the analyses." },
+        "IMG_1366": { "es": "Prueba de yodo para detectar almidón en salchichas.", "en": "Iodine test for starch in sausages." },
+        "IMG_1371": { "es": "Prueba de yodo en rebanadas de jamón.", "en": "Iodine test on ham slices." }
+      } },
+
+    { "id": "cereales", "folder": "desarrollo de productos/cereales", "collection": "cereales",
+      "es": "Cereales y panificación", "en": "Cereals & baking",
+      "caption": { "es": "Taller de cereales y panificación.", "en": "Cereals and baking workshop." },
+      "photos": {
+        "IMG_0283": { "es": "Masa de pan tras la fermentación.", "en": "Bread dough after proofing." },
+        "IMG_0287": { "es": "Boleado de la masa.", "en": "Shaping the dough into rolls." },
+        "IMG_0296": { "es": "Bollos horneados.", "en": "Baked rolls." },
+        "IMG_0300": { "es": "Miga del pan con inclusiones.", "en": "Crumb of the bread with inclusions." },
+        "IMG_0885": { "es": "Preparación de la salsa de tomate para pizza.", "en": "Preparing tomato sauce for pizza." },
+        "IMG_0927": { "es": "Ingredientes para pizza.", "en": "Pizza toppings." },
+        "IMG_0956": { "es": "Formado de la base de pizza.", "en": "Shaping the pizza base." },
+        "IMG_0998": { "es": "Pizza recién horneada.", "en": "Freshly baked pizza." },
+        "IMG_5274": { "es": "Rosca de Reyes antes del horneado.", "en": "Rosca de Reyes before baking." },
+        "IMG_5281": { "es": "Rosca de Reyes horneada.", "en": "Baked Rosca de Reyes." },
+        "IMG_5287": { "es": "Rosca de Reyes decorada.", "en": "Decorated Rosca de Reyes." },
+        "IMG_5587": { "es": "Laminado de pasta fresca.", "en": "Rolling out fresh pasta." },
+        "IMG_5599": { "es": "Lámina de pasta fresca.", "en": "Fresh pasta sheet." },
+        "IMG_5611": { "es": "Pasta fresca cortada.", "en": "Cut fresh pasta." },
+        "IMG_5620": { "es": "Pasta horneada.", "en": "Baked pasta dish." },
+        "IMG_5932": { "es": "Conchas formadas antes del horneado.", "en": "Shaped conchas before baking." },
+        "IMG_5944": { "es": "Conchas decoradas con distintas coberturas.", "en": "Conchas decorated with different toppings.", "featured": 10 },
+        "IMG_5984": { "es": "Conchas horneadas.", "en": "Baked conchas." },
+        "IMG_6197": { "es": "Preparación del relleno para roles.", "en": "Preparing the filling for sweet rolls." },
+        "IMG_6213": { "es": "Extendido del relleno sobre la masa.", "en": "Spreading the filling over the dough." },
+        "IMG_6222": { "es": "Enrollado y corte de los roles.", "en": "Rolling and cutting the sweet rolls." },
+        "IMG_6235": { "es": "Roles listos para fermentar.", "en": "Rolls ready for proofing." },
+        "IMG_6238": { "es": "Roles en la cámara de fermentación.", "en": "Rolls in the proofing cabinet." },
+        "IMG_6241": { "es": "Glaseado de los roles horneados.", "en": "Glazing the baked rolls." }
+      } },
+
+    { "id": "fh-catsup", "folder": "desarrollo de productos/frutas y hortalizas/capsu", "collection": "frutas",
+      "es": "Cátsup", "en": "Ketchup",
+      "caption": { "es": "Elaboración de cátsup.", "en": "Making ketchup." },
+      "photos": {
+        "IMG_8176": { "es": "Escaldado del jitomate.", "en": "Blanching the tomatoes." },
+        "IMG_8182": { "es": "Pelado y troceado del jitomate.", "en": "Peeling and cutting the tomatoes." },
+        "IMG_8183": { "es": "Despulpado y tamizado.", "en": "Pulping and sieving." },
+        "IMG_8187": { "es": "Concentración de la pulpa.", "en": "Concentrating the pulp." },
+        "IMG_8256": { "es": "Tratamiento térmico de los frascos en baño María.", "en": "Heat-treating the jars in a water bath." },
+        "IMG_8242": { "es": "Cátsup envasada.", "en": "Jarred ketchup." },
+        "IMG_8246": { "es": "Lote de cátsup envasada.", "en": "Batch of jarred ketchup." }
+      } },
+
+    { "id": "fh-chamoy", "folder": "desarrollo de productos/frutas y hortalizas/chamoy", "collection": "frutas",
+      "es": "Chamoy de pitaya", "en": "Dragon fruit chamoy",
+      "caption": { "es": "Elaboración de chamoy de pitaya.", "en": "Making dragon fruit chamoy." },
+      "photos": {
+        "IMG_0601": { "es": "Pitaya roja, materia prima del chamoy.", "en": "Red dragon fruit, the chamoy's raw material." },
+        "IMG_0864": { "es": "Cocción del chamoy.", "en": "Cooking the chamoy." },
+        "IMG_0879": { "es": "Textura del chamoy de pitaya.", "en": "Texture of the dragon fruit chamoy." },
+        "IMG_0891": { "es": "Chamoy de pitaya envasado.", "en": "Jarred dragon fruit chamoy." },
+        "IMG_0902": { "es": "Producto terminado.", "en": "Finished product." }
+      } },
+
+    { "id": "fh-salsas", "folder": "desarrollo de productos/frutas y hortalizas/conserva salsas", "collection": "frutas",
+      "es": "Salsas en conserva", "en": "Canned salsas",
+      "caption": { "es": "Elaboración de salsas en conserva.", "en": "Making canned salsas." },
+      "photos": {
+        "IMG_7834": { "es": "Escaldado de dientes de ajo.", "en": "Blanching garlic cloves." },
+        "IMG_7836": { "es": "Cocción de tomate verde.", "en": "Cooking tomatillos." },
+        "IMG_7842": { "es": "Escaldado de chiles.", "en": "Blanching chiles." },
+        "IMG_7851": { "es": "Envasado de las conservas en equipo.", "en": "Filling the jars as a team." },
+        "IMG_7906": { "es": "Salsas y ajos en conserva, invertidos tras el llenado en caliente.", "en": "Canned salsas and garlic, inverted after hot filling." }
+      } },
+
+    { "id": "fh-encurtidos", "folder": "desarrollo de productos/frutas y hortalizas/conservas vinagre", "collection": "frutas",
+      "es": "Encurtidos en vinagre", "en": "Vinegar pickles",
+      "caption": { "es": "Elaboración de encurtidos en vinagre.", "en": "Making vinegar pickles." },
+      "photos": {
+        "IMG_0148": { "es": "Pepinillos frescos.", "en": "Fresh pickling cucumbers." },
+        "IMG_0166": { "es": "Llenado de frascos con verduras en escabeche.", "en": "Filling jars with escabeche vegetables." },
+        "IMG_0180": { "es": "Acomodo de pepinillos en frascos.", "en": "Packing cucumbers into jars." },
+        "IMG_0195": { "es": "Pepinillos acomodados en frasco.", "en": "Cucumbers packed in jars." },
+        "IMG_0228": { "es": "Adición del líquido de gobierno.", "en": "Adding the pickling brine." },
+        "IMG_0243": { "es": "Lote de encurtidos terminados.", "en": "Batch of finished pickles.", "featured": 12 },
+        "IMG_0247": { "es": "Pepinillos encurtidos con especias.", "en": "Spiced pickles." },
+        "IMG_0249": { "es": "Verduras en escabeche.", "en": "Pickled vegetables (escabeche)." }
+      } },
+
+    { "id": "fh-deshidratados", "folder": "desarrollo de productos/frutas y hortalizas/deshidratado", "collection": "frutas",
+      "es": "Fruta deshidratada", "en": "Dried fruit",
+      "caption": { "es": "Deshidratación de frutas.", "en": "Fruit drying." },
+      "photos": {
+        "IMG_9022": { "es": "Fresas rebanadas en charolas.", "en": "Sliced strawberries on trays." },
+        "IMG_9106": { "es": "Mango y arándanos listos para deshidratar.", "en": "Mango and blueberries ready for drying." },
+        "IMG_9118": { "es": "Charolas en el horno de secado.", "en": "Trays in the drying oven." },
+        "IMG_9112": { "es": "Deshidratación en curso.", "en": "Drying in progress." },
+        "IMG_9125": { "es": "Mango deshidratado.", "en": "Dried mango." }
+      } },
+
+    { "id": "fh-mermelada", "folder": "desarrollo de productos/frutas y hortalizas/mermelada", "collection": "frutas",
+      "es": "Mermelada de mango y fresa", "en": "Mango-strawberry jam",
+      "caption": { "es": "Elaboración de mermelada de mango y fresa.", "en": "Making mango-strawberry jam." },
+      "photos": {
+        "IMG_9357": { "es": "Pelado y troceado del mango.", "en": "Peeling and dicing the mango." },
+        "IMG_9364": { "es": "Mango y fresa troceados.", "en": "Diced mango and strawberry." },
+        "IMG_9367": { "es": "Cocción de la fruta.", "en": "Cooking the fruit." },
+        "IMG_9394": { "es": "Punto de la mermelada.", "en": "Checking the jam's set point." },
+        "IMG_9400": { "es": "Envasado en caliente.", "en": "Hot filling." },
+        "IMG_9401": { "es": "Lote de mermelada envasada.", "en": "Batch of jarred jam." },
+        "IMG_9430": { "es": "Mermelada mango-fresa con su etiqueta.", "en": "Mango-strawberry jam with its label.", "featured": 8 }
+      } }
+  ],
+
+  "crops": [
+    { "_nota": "Recortes de la foto de perfil. box = [izquierda, arriba, derecha, abajo] en píxeles de la foto original.",
+      "source": "../CVXimena/FotoDeXimena.png", "box": [270, 440, 500, 670], "size": [460, 460], "out": "assets/img/foto-perfil.jpg" },
+    { "source": "../CVXimena/FotoDeXimena.png", "box": [60, 330, 690, 1170], "size": [630, 840], "out": "assets/img/foto-retrato.jpg" },
+    { "source": "../CVXimena/FotoDeXimena.png", "box": [265, 425, 505, 725], "size": [480, 600], "out": "../CVXimena/img/foto-cv.jpg" }
+  ],
+
+  "cv_annex": {
+    "_nota": "Fotos (recorte cuadrado) para el anexo de evidencias de los CV extendidos. focus: 0 = arriba/izquierda, 1 = abajo/derecha.",
+    "out": "../CVXimena/img",
+    "size": 600,
+    "photos": {
+      "zumbido": { "photo": "hidromiel/IMG_2517", "focus": 0.55 },
+      "hidromiel-fermentacion": { "photo": "hidromiel/IMG_0426", "focus": 0.6 },
+      "microfiltracion-equipo": { "photo": "microfiltracion/IMG_7892", "focus": 0.35 },
+      "microfiltracion-resultado": { "photo": "microfiltracion/IMG_7932", "focus": 0.5 },
+      "nanche": { "photo": "bebida-adaptogena/IMG_8434", "focus": 0.5 },
+      "bebida-adaptogena": { "photo": "bebida-adaptogena/IMG_5750", "focus": 0.45 },
+      "etnofood-tofu": { "photo": "etno-tofu/IMG_2479", "focus": 0.3 },
+      "etnofood-kombucha": { "photo": "etno-kombucha/IMG_1924", "focus": 0.5 },
+      "etnofood-sensorial": { "photo": "etno-sensorial/IMG_2590", "focus": 0.5 },
+      "cerveceria-coccion": { "photo": "cerveceria/IMG_0711", "focus": 0.5 },
+      "cerveceria-tanques": { "photo": "cerveceria/IMG_1289", "focus": 0.5 },
+      "mermelada": { "photo": "fh-mermelada/IMG_9430", "focus": 0.5 },
+      "queso": { "photo": "lacteos-queso/IMG_0085", "focus": 0.5 },
+      "chorizo": { "photo": "carnicos-chorizo/IMG_5673", "focus": 0.5 },
+      "conchas": { "photo": "cereales/IMG_5944", "focus": 0.5 },
+      "encurtidos": { "photo": "fh-encurtidos/IMG_0243", "focus": 0.15 }
+    }
+  },
+
+  "copy": {
+    "_nota": "Los PDF del CV se copian al portafolio cuando cambian.",
+    "../CVXimena/CV_XimenaAragonToledo_ES.pdf": "cv/CV_XimenaAragonToledo_ES.pdf",
+    "../CVXimena/CV_XimenaAragonToledo_EN.pdf": "cv/CV_XimenaAragonToledo_EN.pdf",
+    "../CVXimena/CV_XimenaAragonToledo_1pag_ES.pdf": "cv/CV_XimenaAragonToledo_1pag_ES.pdf",
+    "../CVXimena/CV_XimenaAragonToledo_1page_EN.pdf": "cv/CV_XimenaAragonToledo_1page_EN.pdf"
+  }
+}

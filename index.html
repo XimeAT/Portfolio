@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#1F3524">
+<meta name="description" content="Portafolio de Ximena Aragón Toledo — Ingeniera en Alimentos: producción, desarrollo de productos, bebidas fermentadas y aseguramiento de la calidad e inocuidad.">
+<title>Ximena Aragón Toledo | Portafolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css?v=20261014">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav id="nav">
+  <a href="#inicio" class="nav-logo">Ximena<span>.</span></a>
+  <div class="nav-right">
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a></li>
+      <li><a href="#experiencia" data-i18n="nav.experience">Experiencia</a></li>
+      <li><a href="#proyectos" data-i18n="nav.projects">Proyectos</a></li>
+      <li><a href="#evidencias" data-i18n="nav.evidence">Evidencias</a></li>
+      <li><a href="#habilidades" data-i18n="nav.skills">Habilidades</a></li>
+      <li><a href="#contacto" data-i18n="nav.contact">Contacto</a></li>
+    </ul>
+    <div class="lang-switch" role="group" aria-label="Language / Idioma">
+      <button class="lang-btn" data-lang="es" aria-label="Español">ES</button>
+      <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menú" data-i18n-attr="aria-label:nav.menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section id="inicio">
+  <div class="hero-inner">
+    <div class="hero-badge" id="heroBadge"><i class="ic ic-wine"></i> Hidromiel «Zumbido» · Desarrollo integral</div>
+    <div class="hero-photo-wrap"><img src="assets/img/foto-perfil.jpg" alt="Ximena Aragón Toledo" class="hero-photo" width="460" height="460"></div>
+    <h1>Ximena Aragón Toledo</h1>
+    <p class="hero-title" data-i18n="hero.title">Ingeniera en Alimentos · Producción y Desarrollo de Productos</p>
+    <p class="hero-sub" data-i18n="hero.sub">Experiencia en producción, desarrollo de productos y optimización de procesos en la industria alimentaria, con especial interés en las bebidas fermentadas y funcionales.</p>
+    <p class="avail"><span class="pulse" aria-hidden="true"></span><span data-i18n="hero.avail">Disponible para nuevas oportunidades laborales</span></p>
+    <div class="hero-cta">
+      <a href="galeria.html" class="btn btn-honey" data-i18n="hero.cta1"><i class="ic ic-camera"></i> Ver evidencias</a>
+      <a href="#proyectos" class="btn btn-outline" data-i18n="hero.cta2">Ver proyectos</a>
+      <a href="#contacto" class="btn btn-outline" data-contact-open data-i18n="hero.cta3"><i class="ic ic-mail"></i> Contáctame</a>
+    </div>
+    <div class="hero-socials">
+      <a href="mailto:ximenaaragonn@gmail.com" class="hero-social"><i class="ic ic-mail"></i> ximenaaragonn@gmail.com</a>
+      <a href="cv/CV_XimenaAragonToledo_ES.pdf" class="hero-social" download data-i18n-attr="href:cv.ext" data-i18n="hero.cv"><i class="ic ic-download"></i> Descargar CV</a>
+      <span class="hero-social" data-i18n="hero.loc"><i class="ic ic-pin"></i> Oaxaca, México</span>
+    </div>
+  </div>
+  <div class="scroll-ind">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+  </div>
+</section>
+
+<!-- ═══ ABOUT ═══ -->
+<section id="sobre-mi">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-photo-wrap reveal">
+        <img src="assets/img/foto-retrato.jpg" alt="Ximena Aragón Toledo" class="about-photo" width="630" height="840" loading="lazy">
+        <div class="about-badge" data-i18n="about.badge"><i class="ic ic-pin"></i> Oaxaca, México</div>
+      </div>
+      <div class="about-content reveal">
+        <h2 data-i18n="about.title">Sobre mí</h2>
+        <p data-i18n="about.p1">Soy Ingeniera en Alimentos por la <strong>Universidad Tecnológica de la Mixteca</strong>, con experiencia en producción, desarrollo de productos y optimización de procesos en la industria alimentaria.</p>
+        <p data-i18n="about.p2">He trabajado en la producción de cerveza artesanal en <strong>La Fermentería</strong> y en la investigación y desarrollo de productos fermentados en <strong>EtnoFood</strong>. En la universidad desarrollé <strong>Zumbido</strong>, un hidromiel de frutos rojos que llevé de la idea al producto etiquetado, y optimicé la clarificación de kombucha mediante <strong>microfiltración</strong>.</p>
+        <p data-i18n="about.p3">Me oriento a la mejora continua, la resolución de problemas y el cumplimiento de objetivos operativos, siempre con atención a la calidad e inocuidad de lo que se produce.</p>
+        <div class="about-row">
+          <div class="nf" role="group" aria-label="Resumen en formato de información nutrimental" data-i18n-attr="aria-label:nf.aria">
+            <div class="nf-t" data-i18n="nf.t">Información nutrimental</div>
+            <div class="nf-s" data-i18n="nf.s">Porción: <b>1 Ingeniera en Alimentos</b></div>
+            <div class="nf-h"><span data-i18n="nf.h1">Contenido</span><span data-i18n="nf.h2">Cantidad</span></div>
+            <div class="nf-row"><b data-i18n="nf.r1">Experiencias profesionales</b><span class="v">3</span></div>
+            <div class="nf-row"><b data-i18n="nf.r2">Proyectos de I+D</b><span class="v">3</span></div>
+            <div class="nf-row"><b data-i18n="nf.r3">Productos elaborados</b><span class="v">20+</span></div>
+            <div class="nf-row"><b data-i18n="nf.r4">Fotos de evidencia</b><span class="v" data-count>172</span></div>
+            <div class="nf-row thick"><b data-i18n="nf.r5">Inglés</b><span class="v">C1</span></div>
+            <p class="nf-ing" data-i18n="nf.ing"><b>Ingredientes:</b> producción, calidad e inocuidad, desarrollo de productos, fermentaciones, evaluación sensorial y mejora continua.</p>
+          </div>
+          <div class="about-side">
+            <div class="edu">
+              <span class="edu-ico"><i class="ic ic-cap"></i></span>
+              <div>
+                <div class="edu-t" data-i18n="edu.t">Ingeniería en Alimentos</div>
+                <div class="edu-s">Universidad Tecnológica de la Mixteca · 2021 – 2026</div>
+              </div>
+            </div>
+            <div class="edu">
+              <span class="edu-ico" style="background:var(--honey-l);color:var(--honey-tx)"><i class="ic ic-languages"></i></span>
+              <div>
+                <div class="edu-t" data-i18n="lang.t">Español nativo · Inglés C1</div>
+                <div class="edu-s" data-i18n="lang.s">Software: Excel, Visio y SolidWorks</div>
+              </div>
+            </div>
+            <div class="about-actions">
+              <a href="cv/CV_XimenaAragonToledo_ES.pdf" download class="btn-dark" data-i18n-attr="href:cv.ext" data-i18n="about.cv"><i class="ic ic-download"></i> Descargar CV</a>
+              <a href="cv/CV_XimenaAragonToledo_1pag_ES.pdf" download class="btn-ghost" data-i18n-attr="href:cv.one" data-i18n="about.cv1">CV de 1 página</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ EXPERIENCE ═══ -->
+<section id="experiencia">
+  <div class="container">
+    <div class="sec-hd reveal">
+      <span class="sec-label" data-i18n="exp.label">Trayectoria</span>
+      <h2 class="sec-title" data-i18n="exp.title">Experiencia Profesional</h2>
+      <p class="sec-desc" data-i18n="exp.desc">De la planta cervecera al área de desarrollo: experiencia en producción, investigación y análisis.</p>
+    </div>
+    <div class="timeline">
+
+      <div class="tl-item reveal" style="--c:#4F7A2C">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-meta">
+            <div>
+              <div class="tl-title" data-i18n="exp1.title">Investigación y Desarrollo de Nuevos Productos</div>
+              <div class="tl-org" data-i18n="exp1.org"><strong>EtnoFood</strong> · Prácticas profesionales</div>
+            </div>
+            <span class="tl-period" data-i18n="exp1.period">Jul – Ago 2025</span>
+          </div>
+          <ul class="tl-list">
+            <li data-i18n="exp1.li1">Desarrollé productos fermentados —como kombucha— y nuevos productos como salsa tradicional y tofu, desde la formulación hasta el producto terminado.</li>
+            <li data-i18n="exp1.li2">Monitoreé los parámetros de fermentación y di seguimiento al proceso por lotes para asegurar su estabilidad.</li>
+            <li data-i18n="exp1.li3">Resolví problemas y optimicé formulaciones mediante evaluaciones sensoriales.</li>
+            <li data-i18n="exp1.li4">Estandaricé procesos para garantizar reproducibilidad y eficiencia operativa.</li>
+            <li data-i18n="exp1.li5">Envasé con criterios de calidad e inocuidad y realicé evaluación sensorial y análisis de aceptación del consumidor.</li>
+          </ul>
+          <div class="tl-thumbs" data-thumbs="etno-tofu/img-2479 etno-kombucha/img-1924 etno-sensorial/img-2590 etno-salsa/img-2637 etno-kombucha/img-2526"></div>
+          <a href="experiencia/etnofood.html" class="tl-more" data-i18n="exp.more">Ver la experiencia y sus evidencias →</a>
+        </div>
+      </div>
+
+      <div class="tl-item reveal" style="--c:#9A5B1E">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-meta">
+            <div>
+              <div class="tl-title" data-i18n="exp2.title">Producción en Planta Cervecera</div>
+              <div class="tl-org" data-i18n="exp2.org"><strong>La Fermentería</strong> · Prácticas profesionales</div>
+            </div>
+            <span class="tl-period" data-i18n="exp2.period">Jul – Sep 2024</span>
+          </div>
+          <ul class="tl-list">
+            <li data-i18n="exp2.li1">Ejecuté el proceso productivo de cerveza artesanal: maceración, recirculación y lavado del grano, hervido y fermentación.</li>
+            <li data-i18n="exp2.li2">Monitoreé parámetros críticos y operé los equipos para asegurar la continuidad del proceso.</li>
+            <li data-i18n="exp2.li3">Apliqué Buenas Prácticas de Manufactura (BPM) y di seguimiento a los controles de calidad durante la producción.</li>
+            <li data-i18n="exp2.li4">Identifiqué y resolví desviaciones mediante la evaluación sensorial del producto terminado.</li>
+            <li data-i18n="exp2.li5">Promoví y vendí cerveza artesanal en ferias.</li>
+          </ul>
+          <div class="tl-thumbs" data-thumbs="cerveceria/img-0711 cerveceria/img-0715 cerveceria/img-1289 cerveceria/img-1318 cerveceria/img-1300"></div>
+          <a href="experiencia/la-fermenteria.html" class="tl-more" data-i18n="exp.more">Ver la experiencia y sus evidencias →</a>
+        </div>
+      </div>
+
+      <div class="tl-item reveal" style="--c:#2A8C82">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-meta">
+            <div>
+              <div class="tl-title" data-i18n="exp3.title">Síntesis de Sensores de Metales en Alimentos</div>
+              <div class="tl-org" data-i18n="exp3.org"><strong>Universidad Tecnológica de la Mixteca</strong> · Servicio social</div>
+            </div>
+            <span class="tl-period" data-i18n="exp3.period">Jun – Nov 2023</span>
+          </div>
+          <ul class="tl-list">
+            <li data-i18n="exp3.li1">Participé en la fase inicial de un proyecto de síntesis de sensores químicos para la detección de cobre, hierro y zinc.</li>
+            <li data-i18n="exp3.li2">Realicé análisis preliminares mediante espectrofotometría UV-Vis e IR para apoyar la evaluación de los materiales sintetizados.</li>
+            <li data-i18n="exp3.li3">Apliqué técnicas de cromatografía en capa fina y en columna como parte del análisis experimental.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PROJECTS ═══ -->
+<section id="proyectos">
+  <div class="container">
+    <div class="sec-hd reveal">
+      <span class="sec-label" data-i18n="proj.label">Del laboratorio a la mesa</span>
+      <h2 class="sec-title" data-i18n="proj.title">Proyectos Destacados</h2>
+      <p class="sec-desc" data-i18n="proj.desc">Desarrollo de productos y procesos, de la formulación al producto terminado.</p>
+    </div>
+
+    <div class="proj-grid">
+
+      <!-- FEATURED: Zumbido -->
+      <article class="proj-card feat reveal">
+        <div class="proj-banner photo comb" style="view-transition-name:vt-zumbido">
+          <img src="assets/img/evidencias/hidromiel/img-2517-720.webp" srcset="assets/img/evidencias/hidromiel/img-2517-720.webp 540w, assets/img/evidencias/hidromiel/img-2517-1600.webp 1200w" sizes="(max-width: 900px) 100vw, 550px" width="540" height="720" alt="Botellas de Zumbido, hidromiel de frutos rojos" data-i18n-attr="alt:proj.z.alt" loading="lazy" decoding="async" style="object-position:center 60%">
+          <div class="proj-art">
+            <div class="proj-logo">Zumbido</div>
+            <div class="proj-logo-sub" data-i18n="proj.z.sub">Hidromiel de frutos rojos · Miel de la Sierra Sur de Oaxaca</div>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="badges">
+            <span class="badge b-honey" data-i18n="proj.z.b1"><i class="ic ic-wine"></i> Desarrollo integral</span>
+            <span class="badge b-berry" data-i18n="proj.z.b2">Frutos rojos</span>
+            <span class="badge b-herb">UTM · 2026</span>
+          </div>
+          <h3 class="proj-title"><a href="proyectos/hidromiel-zumbido.html" class="stretch" data-i18n="proj.z.title">Zumbido — Hidromiel artesanal de frutos rojos</a></h3>
+          <p class="proj-desc" data-i18n="proj.z.desc">Desarrollo integral de una bebida alcohólica fermentada a base de miel de abejas de la Sierra Sur de Oaxaca, desde la conceptualización hasta la estandarización del proceso productivo, el envasado y el etiquetado para su comercialización.</p>
+          <div class="flow" role="list" aria-label="Etapas del proceso" data-i18n-attr="aria-label:proj.z.flow">
+            <span role="listitem" data-i18n="proj.z.f1">Formulación</span><i class="ic ic-arrow"></i>
+            <span role="listitem" data-i18n="proj.z.f2">Fermentación</span><i class="ic ic-arrow"></i>
+            <span role="listitem" data-i18n="proj.z.f3">Maduración</span><i class="ic ic-arrow"></i>
+            <span role="listitem" data-i18n="proj.z.f4">Clarificación</span><i class="ic ic-arrow"></i>
+            <span role="listitem" data-i18n="proj.z.f5">Embotellado</span><i class="ic ic-arrow"></i>
+            <span role="listitem" data-i18n="proj.z.f6">Etiquetado</span>
+          </div>
+          <div class="tags">
+            <span class="tag" data-i18n="proj.z.t1">Fermentación alcohólica</span><span class="tag" data-i18n="proj.z.t2">Estandarización de proceso</span>
+            <span class="tag" data-i18n="proj.z.t3">Envasado y etiquetado</span><span class="tag" data-i18n="proj.z.t4">Evaluación sensorial</span>
+          </div>
+          <span class="more" data-i18n="proj.more">Ver proyecto →</span>
+        </div>
+      </article>
+
+      <!-- Kombucha microfiltration -->
+      <article class="proj-card reveal">
+        <div class="proj-banner photo" style="view-transition-name:vt-kombucha">
+          <img src="assets/img/evidencias/microfiltracion/img-7932-720.webp" srcset="assets/img/evidencias/microfiltracion/img-7932-720.webp 720w, assets/img/evidencias/microfiltracion/img-7932-1600.webp 1600w" sizes="(max-width: 480px) 100vw, 360px" width="720" height="648" alt="Kombucha sin filtrar junto a kombucha microfiltrada" data-i18n-attr="alt:proj.k.alt" loading="lazy" decoding="async">
+          <div class="proj-art">
+            <div class="proj-logo-sub" data-i18n="proj.k.sub">Laboratorio de Bioprocesos · UTM</div>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="badges">
+            <span class="badge b-teal" data-i18n="proj.k.b1"><i class="ic ic-funnel"></i> Bioprocesos</span>
+            <span class="badge b-honey">Oct – Dic 2025</span>
+          </div>
+          <h3 class="proj-title"><a href="proyectos/microfiltracion-kombucha.html" class="stretch" data-i18n="proj.k.title">Microfiltración de kombucha</a></h3>
+          <p class="proj-desc" data-i18n="proj.k.desc">Optimización de la estabilización microbiológica y la clarificación de la kombucha mediante microfiltración, mejorando la eficiencia del proceso sin comprometer sus propiedades funcionales.</p>
+          <div class="tags">
+            <span class="tag" data-i18n="proj.k.t1">Microfiltración</span><span class="tag" data-i18n="proj.k.t2">Bomba peristáltica</span><span class="tag" data-i18n="proj.k.t3">Clarificación</span>
+          </div>
+          <span class="more" data-i18n="proj.more">Ver proyecto →</span>
+        </div>
+      </article>
+
+      <!-- Adaptogenic drink -->
+      <article class="proj-card reveal">
+        <div class="proj-banner photo" style="view-transition-name:vt-bebida">
+          <img src="assets/img/evidencias/bebida-adaptogena/img-5750-720.webp" srcset="assets/img/evidencias/bebida-adaptogena/img-5750-720.webp 540w, assets/img/evidencias/bebida-adaptogena/img-5750-1600.webp 1200w" sizes="(max-width: 480px) 100vw, 360px" width="540" height="720" alt="Prototipo de la bebida adaptógena de hoja de nanche con su etiqueta" data-i18n-attr="alt:proj.b.alt" loading="lazy" decoding="async" style="object-position:center 40%">
+          <div class="proj-art">
+            <div class="proj-logo-sub" data-i18n="proj.b.sub">Laboratorio de Bioprocesos · UTM</div>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="badges">
+            <span class="badge b-berry" data-i18n="proj.b.b1"><i class="ic ic-leaf"></i> Bebida funcional</span>
+            <span class="badge b-herb" data-i18n="proj.b.b2">Ensayo DPPH</span>
+          </div>
+          <h3 class="proj-title"><a href="proyectos/bebida-adaptogena.html" class="stretch" data-i18n="proj.b.title">Bebida adaptógena con actividad antioxidante</a></h3>
+          <p class="proj-desc" data-i18n="proj.b.desc">Formulación y optimización de una bebida funcional a base de extracto de hoja de nanche, frambuesa y miel; la formulación más eficiente se eligió mediante el ensayo DPPH.</p>
+          <div class="tags">
+            <span class="tag" data-i18n="proj.b.t1">Compuestos bioactivos</span><span class="tag" data-i18n="proj.b.t2">Actividad antioxidante</span><span class="tag" data-i18n="proj.b.t3">Formulación</span>
+          </div>
+          <span class="more" data-i18n="proj.more">Ver proyecto →</span>
+        </div>
+      </article>
+
+      <!-- Pilot plant -->
+      <article class="proj-card reveal">
+        <div class="proj-banner photo quad" style="view-transition-name:vt-planta">
+          <img src="assets/img/evidencias/lacteos-queso/img-0085-720.webp" width="720" height="540" alt="" loading="lazy" decoding="async">
+          <img src="assets/img/evidencias/carnicos-chorizo/img-5673-720.webp" width="540" height="720" alt="" loading="lazy" decoding="async">
+          <img src="assets/img/evidencias/cereales/img-5944-720.webp" width="720" height="680" alt="" loading="lazy" decoding="async">
+          <img src="assets/img/evidencias/fh-mermelada/img-9430-720.webp" width="540" height="720" alt="" loading="lazy" decoding="async" style="object-position:center 60%">
+          <div class="proj-art">
+            <div class="proj-logo-sub" data-i18n="proj.p.sub">Talleres de Procesamiento de Alimentos · UTM</div>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="badges">
+            <span class="badge b-wheat" data-i18n="proj.p.b1"><i class="ic ic-chef"></i> Planta piloto</span>
+            <span class="badge b-tomato" data-i18n="proj.p.b2">4 líneas de producto</span>
+          </div>
+          <h3 class="proj-title"><a href="proyectos/planta-piloto.html" class="stretch" data-i18n="proj.p.title">Desarrollo de productos en planta piloto</a></h3>
+          <p class="proj-desc" data-i18n="proj.p.desc">Más de 20 productos elaborados en cuatro líneas —cárnicos, lácteos, cereales y frutas y hortalizas—: de chorizo, queso fresco y yogurt a pan, conservas y mermeladas.</p>
+          <div class="tags">
+            <span class="tag" data-i18n="proj.p.t1">Cárnicos</span><span class="tag" data-i18n="proj.p.t2">Lácteos</span><span class="tag" data-i18n="proj.p.t3">Panificación</span><span class="tag" data-i18n="proj.p.t4">Conservas</span>
+          </div>
+          <span class="more" data-i18n="proj.more">Ver proyecto →</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ EVIDENCE ═══ -->
+<section id="evidencias">
+  <div class="container">
+    <div class="sec-hd reveal">
+      <span class="sec-label" data-i18n="ev.label">Del proceso al producto</span>
+      <h2 class="sec-title" data-i18n="ev.title">Portafolio de evidencias</h2>
+      <p class="sec-desc" data-i18n="ev.desc">Más de 170 fotografías de mi trabajo en planta piloto, laboratorio y empresa, organizadas por proyecto. Haz clic en cualquier foto para ampliarla.</p>
+    </div>
+    <div class="mosaic reveal" data-mosaic></div>
+    <div class="gal-cols chips reveal" data-gal-links></div>
+    <div class="gal-cta reveal">
+      <a href="galeria.html" class="btn btn-primary" data-i18n="ev.cta"><i class="ic ic-images"></i> Ver la galería completa</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SKILLS ═══ -->
+<section id="habilidades">
+  <div class="container">
+    <div class="sec-hd reveal">
+      <span class="sec-label" data-i18n="sk.label">Ingredientes</span>
+      <h2 class="sec-title" data-i18n="sk.title">Habilidades</h2>
+      <p class="sec-desc" data-i18n="sk.desc">Competencias técnicas aplicadas en planta, laboratorio y empresa.</p>
+    </div>
+    <div class="skills-grid">
+
+      <div class="sk-group reveal" style="--c:#4F7A2C">
+        <div class="sk-title"><span class="sk-ico"><i class="ic ic-factory"></i></span><span data-i18n="sk.g1">Producción y procesos</span></div>
+        <div class="sk-tags">
+          <span class="sk-tag hi" data-i18n="sk.t11">Operación de procesos productivos</span>
+          <span class="sk-tag hi" data-i18n="sk.t12">Control de procesos</span>
+          <span class="sk-tag hi" data-i18n="sk.t13">Estandarización de procesos</span>
+          <span class="sk-tag" data-i18n="sk.t14">Optimización de procesos</span>
+          <span class="sk-tag" data-i18n="sk.t15">Mejora continua</span>
+          <span class="sk-tag" data-i18n="sk.t16">Resolución de problemas</span>
+        </div>
+      </div>
+
+      <div class="sk-group reveal" style="--c:#C8462B">
+        <div class="sk-title"><span class="sk-ico"><i class="ic ic-shield"></i></span><span data-i18n="sk.g2">Calidad e inocuidad</span></div>
+        <div class="sk-tags">
+          <span class="sk-tag hi" data-i18n="sk.t21">Buenas Prácticas de Manufactura (BPM)</span>
+          <span class="sk-tag hi" data-i18n="sk.t22">Controles de calidad</span>
+          <span class="sk-tag" data-i18n="sk.t23">Inocuidad alimentaria</span>
+          <span class="sk-tag" data-i18n="sk.t24">Herramientas de calidad</span>
+          <span class="sk-tag" data-i18n="sk.t25">Envasado y etiquetado</span>
+        </div>
+      </div>
+
+      <div class="sk-group reveal" style="--c:#D9921A">
+        <div class="sk-title"><span class="sk-ico"><i class="ic ic-flask"></i></span><span data-i18n="sk.g3">Desarrollo de productos</span></div>
+        <div class="sk-tags">
+          <span class="sk-tag hi" data-i18n="sk.t31">Formulación de alimentos y bebidas</span>
+          <span class="sk-tag hi" data-i18n="sk.t32">Fermentaciones</span>
+          <span class="sk-tag hi" data-i18n="sk.t33">Evaluación sensorial</span>
+          <span class="sk-tag" data-i18n="sk.t34">Análisis de aceptación del consumidor</span>
+          <span class="sk-tag" data-i18n="sk.t35">Nuevos productos</span>
+        </div>
+      </div>
+
+      <div class="sk-group reveal" style="--c:#2A8C82">
+        <div class="sk-title"><span class="sk-ico"><i class="ic ic-microscope"></i></span><span data-i18n="sk.g4">Técnicas de laboratorio</span></div>
+        <div class="sk-tags">
+          <span class="sk-tag hi" data-i18n="sk.t41">Ensayo DPPH</span>
+          <span class="sk-tag hi" data-i18n="sk.t42">Microfiltración</span>
+          <span class="sk-tag" data-i18n="sk.t43">Espectrofotometría UV-Vis e IR</span>
+          <span class="sk-tag" data-i18n="sk.t44">Cromatografía en capa fina y en columna</span>
+          <span class="sk-tag" data-i18n="sk.t45">Análisis fisicoquímicos</span>
+          <span class="sk-tag" data-i18n="sk.t46">Pruebas de plataforma en leche</span>
+        </div>
+      </div>
+
+      <div class="sk-group reveal" style="--c:#A3214F">
+        <div class="sk-title"><span class="sk-ico"><i class="ic ic-utensils"></i></span><span data-i18n="sk.g5">Líneas de producto</span></div>
+        <div class="sk-tags">
+          <span class="sk-tag hi" data-i18n="sk.t51">Bebidas fermentadas</span>
+          <span class="sk-tag" data-i18n="sk.t52">Cerveza</span>
+          <span class="sk-tag" data-i18n="sk.t53">Kombucha</span>
+          <span class="sk-tag" data-i18n="sk.t54">Hidromiel</span>
+          <span class="sk-tag" data-i18n="sk.t55">Lácteos</span>
+          <span class="sk-tag" data-i18n="sk.t56">Cárnicos</span>
+          <span class="sk-tag" data-i18n="sk.t57">Panificación</span>
+          <span class="sk-tag" data-i18n="sk.t58">Frutas y hortalizas</span>
+        </div>
+      </div>
+
+      <div class="sk-group reveal" style="--c:#5C82A8">
+        <div class="sk-title"><span class="sk-ico"><i class="ic ic-monitor"></i></span><span data-i18n="sk.g6">Software e idiomas</span></div>
+        <div class="sk-tags">
+          <span class="sk-tag hi">Microsoft Excel</span>
+          <span class="sk-tag">Microsoft Visio</span>
+          <span class="sk-tag">SolidWorks</span>
+          <span class="sk-tag hi" data-i18n="sk.t64">Inglés C1</span>
+          <span class="sk-tag" data-i18n="sk.t65">Español nativo</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTACT ═══ -->
+<section id="contacto">
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="sec-hd reveal">
+        <span class="sec-label" data-i18n="contact.label">Hablemos</span>
+        <h2 class="sec-title" data-i18n="contact.title">Contacto</h2>
+        <p class="sec-desc" data-i18n="contact.desc">Busco oportunidades en producción, aseguramiento de la calidad y desarrollo de nuevos productos en la industria de alimentos y bebidas. ¡Escríbeme!</p>
+        <div class="contact-cta">
+          <button type="button" class="btn btn-primary" data-contact-open data-contact-reason="job" data-i18n="contact.cta"><i class="ic ic-mail"></i> Escríbeme un mensaje</button>
+          <a href="cv/CV_XimenaAragonToledo_ES.pdf" download class="btn-ghost" data-i18n-attr="href:cv.ext" data-i18n="about.cv"><i class="ic ic-download"></i> Descargar CV</a>
+        </div>
+      </div>
+      <div class="contact-links reveal">
+        <a href="mailto:ximenaaragonn@gmail.com" class="contact-link">
+          <div class="cl-ico cl-mail"><i class="ic ic-mail"></i></div>
+          <div><div class="cl-lbl">Email</div><div class="cl-val">ximenaaragonn@gmail.com</div></div>
+        </a>
+        <a href="galeria.html" class="contact-link">
+          <div class="cl-ico cl-pin"><i class="ic ic-camera"></i></div>
+          <div><div class="cl-lbl" data-i18n="contact.gal">Portafolio de evidencias</div><div class="cl-val"><span data-count>172</span> <span data-i18n="contact.galv">fotografías</span></div></div>
+        </a>
+      </div>
+      <p class="services-lbl reveal" data-i18n="contact.cvs">Currículum en PDF</p>
+      <div class="cv-dl reveal">
+        <a href="cv/CV_XimenaAragonToledo_ES.pdf" download><i class="ic ic-file"></i> Extendido · Español</a>
+        <a href="cv/CV_XimenaAragonToledo_EN.pdf" download><i class="ic ic-file"></i> Extended · English</a>
+        <a href="cv/CV_XimenaAragonToledo_1pag_ES.pdf" download><i class="ic ic-file"></i> 1 página · Español</a>
+        <a href="cv/CV_XimenaAragonToledo_1page_EN.pdf" download><i class="ic ic-file"></i> 1 page · English</a>
+      </div>
+      <p class="services-lbl reveal" data-i18n="contact.svc">¿En qué puedo aportar?</p>
+      <div class="services reveal">
+        <span class="svc" data-i18n="contact.svc1"><i class="ic ic-factory"></i> Producción y operación de procesos</span>
+        <span class="svc" data-i18n="contact.svc2"><i class="ic ic-shield"></i> Calidad e inocuidad</span>
+        <span class="svc" data-i18n="contact.svc3"><i class="ic ic-flask"></i> Desarrollo de nuevos productos</span>
+        <span class="svc" data-i18n="contact.svc4"><i class="ic ic-wine"></i> Bebidas fermentadas y funcionales</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p data-i18n="footer.by"><strong>Ximena Aragón Toledo</strong> · Ingeniera en Alimentos</p>
+  <p style="margin-top:.4rem;font-size:.78rem;opacity:.55" data-i18n="footer.loc">Oaxaca, México · 2026</p>
+</footer>
+
+<script>
+// ═══ i18n (home) — Spanish lives in the HTML; nav/footer/contact strings live in assets/js/site.js ═══
+window.PAGE_I18N = {
+  es: {
+    "_badges": [
+      `<i class="ic ic-wine"></i> Hidromiel «Zumbido» · Desarrollo integral`,
+      `<i class="ic ic-cap"></i> Ingeniera en Alimentos · UTM`,
+      `<i class="ic ic-factory"></i> Producción · Calidad e inocuidad`,
+      `<i class="ic ic-beer"></i> Cerveza · Kombucha · Hidromiel`,
+      `<i class="ic ic-flask"></i> I+D de nuevos productos · EtnoFood`,
+      `<i class="ic ic-languages"></i> Inglés C1 · Español nativo`,
+    ],
+  },
+  en: {
+    "meta.title": `Ximena Aragón Toledo | Portfolio`,
+    "meta.desc": `Portfolio of Ximena Aragón Toledo — Food Engineer: production, product development, fermented beverages, and food quality and safety.`,
+    "cv.ext": `cv/CV_XimenaAragonToledo_EN.pdf`,
+    "cv.one": `cv/CV_XimenaAragonToledo_1page_EN.pdf`,
+    "hero.title": `Food Engineer · Production & Product Development`,
+    "hero.sub": `Experience in production, product development and process optimization in the food industry, with a particular interest in fermented and functional beverages.`,
+    "hero.avail": `Open to new job opportunities`,
+    "hero.cta1": `<i class="ic ic-camera"></i> See my work`,
+    "hero.cta2": `View projects`,
+    "hero.cta3": `<i class="ic ic-mail"></i> Contact me`,
+    "hero.cv": `<i class="ic ic-download"></i> Download CV`,
+    "hero.loc": `<i class="ic ic-pin"></i> Oaxaca, Mexico`,
+    "about.badge": `<i class="ic ic-pin"></i> Oaxaca, Mexico`,
+    "about.title": `About Me`,
+    "about.p1": `I'm a Food Engineer from the <strong>Universidad Tecnológica de la Mixteca</strong>, with experience in production, product development and process optimization in the food industry.`,
+    "about.p2": `I've worked in craft beer production at <strong>La Fermentería</strong> and in research and development of fermented products at <strong>EtnoFood</strong>. At university I developed <strong>Zumbido</strong>, a red-fruit mead I took from idea to labeled product, and I optimized the clarification of kombucha through <strong>microfiltration</strong>.`,
+    "about.p3": `I'm driven by continuous improvement, problem solving and meeting operational goals, always with an eye on the quality and safety of what we produce.`,
+    "nf.aria": `Summary in the style of a nutrition facts label`,
+    "nf.t": `Nutrition Facts`,
+    "nf.s": `Serving size: <b>1 Food Engineer</b>`,
+    "nf.h1": `Contents`,
+    "nf.h2": `Amount`,
+    "nf.r1": `Professional experiences`,
+    "nf.r2": `R&D projects`,
+    "nf.r3": `Products made`,
+    "nf.r4": `Evidence photos`,
+    "nf.r5": `English`,
+    "nf.ing": `<b>Ingredients:</b> production, quality and food safety, product development, fermentation, sensory evaluation and continuous improvement.`,
+    "edu.t": `B.Eng. in Food Engineering`,
+    "lang.t": `Spanish (native) · English C1`,
+    "lang.s": `Software: Excel, Visio and SolidWorks`,
+    "about.cv": `<i class="ic ic-download"></i> Download CV`,
+    "about.cv1": `1-page résumé`,
+    "exp.label": `Career path`,
+    "exp.title": `Professional Experience`,
+    "exp.desc": `From the brewery floor to the development kitchen: experience in production, research and analysis.`,
+    "exp.more": `See the experience and its evidence →`,
+    "exp1.title": `New Product Research & Development`,
+    "exp1.org": `<strong>EtnoFood</strong> · Professional internship`,
+    "exp1.period": `Jul – Aug 2025`,
+    "exp1.li1": `Developed fermented products —such as kombucha— and new products such as a traditional salsa and tofu, from formulation to finished product.`,
+    "exp1.li2": `Monitored fermentation parameters and followed each batch through the process to keep it stable.`,
+    "exp1.li3": `Solved problems and optimized formulations through sensory evaluation.`,
+    "exp1.li4": `Standardized processes to ensure reproducibility and operational efficiency.`,
+    "exp1.li5": `Packaged products under quality and food-safety criteria, and ran sensory evaluation and consumer acceptance analysis.`,
+    "exp2.title": `Brewery Production`,
+    "exp2.org": `<strong>La Fermentería</strong> · Professional internship`,
+    "exp2.period": `Jul – Sep 2024`,
+    "exp2.li1": `Ran the craft beer production process: mashing, recirculation and sparging, boiling and fermentation.`,
+    "exp2.li2": `Monitored critical parameters and operated the equipment to keep the process running.`,
+    "exp2.li3": `Applied Good Manufacturing Practices (GMP) and followed up on quality controls during production.`,
+    "exp2.li4": `Identified and resolved deviations through sensory evaluation of the finished product.`,
+    "exp2.li5": `Promoted and sold craft beer at fairs.`,
+    "exp3.title": `Synthesis of Metal Sensors for Food`,
+    "exp3.org": `<strong>Universidad Tecnológica de la Mixteca</strong> · Social service`,
+    "exp3.period": `Jun – Nov 2023`,
+    "exp3.li1": `Took part in the initial phase of a project synthesizing chemical sensors to detect copper, iron and zinc.`,
+    "exp3.li2": `Ran preliminary UV-Vis and IR spectrophotometry analyses to support the evaluation of the synthesized materials.`,
+    "exp3.li3": `Applied thin-layer and column chromatography as part of the experimental analysis.`,
+    "proj.label": `From the lab to the table`,
+    "proj.title": `Featured Projects`,
+    "proj.desc": `Product and process development, from formulation to finished product.`,
+    "proj.more": `View project →`,
+    "proj.z.alt": `Bottles of Zumbido, a red-fruit mead`,
+    "proj.z.sub": `Red-fruit mead · Honey from Oaxaca's Sierra Sur`,
+    "proj.z.b1": `<i class="ic ic-wine"></i> End-to-end development`,
+    "proj.z.b2": `Red fruit`,
+    "proj.z.title": `Zumbido — Artisanal red-fruit mead`,
+    "proj.z.desc": `End-to-end development of an alcoholic beverage fermented from the honey of bees native to Oaxaca's Sierra Sur, from concept to a standardized production process, packaging and labeling for sale.`,
+    "proj.z.flow": `Process stages`,
+    "proj.z.f1": `Formulation`,
+    "proj.z.f2": `Fermentation`,
+    "proj.z.f3": `Maturation`,
+    "proj.z.f4": `Clarification`,
+    "proj.z.f5": `Bottling`,
+    "proj.z.f6": `Labeling`,
+    "proj.z.t1": `Alcoholic fermentation`,
+    "proj.z.t2": `Process standardization`,
+    "proj.z.t3": `Packaging & labeling`,
+    "proj.z.t4": `Sensory evaluation`,
+    "proj.k.alt": `Unfiltered kombucha next to microfiltered kombucha`,
+    "proj.k.sub": `Bioprocess Laboratory · UTM`,
+    "proj.k.b1": `<i class="ic ic-funnel"></i> Bioprocessing`,
+    "proj.k.title": `Kombucha microfiltration`,
+    "proj.k.desc": `Optimized the microbiological stabilization and clarification of kombucha through microfiltration, making the process more efficient without compromising the drink's functional properties.`,
+    "proj.k.t1": `Microfiltration`,
+    "proj.k.t2": `Peristaltic pump`,
+    "proj.k.t3": `Clarification`,
+    "proj.b.alt": `Prototype of the adaptogenic nanche-leaf drink with its label`,
+    "proj.b.sub": `Bioprocess Laboratory · UTM`,
+    "proj.b.b1": `<i class="ic ic-leaf"></i> Functional drink`,
+    "proj.b.b2": `DPPH assay`,
+    "proj.b.title": `Adaptogenic drink with antioxidant activity`,
+    "proj.b.desc": `Formulated and optimized a functional drink made with nanche-leaf extract, raspberry and honey; the most effective formulation was chosen with the DPPH assay.`,
+    "proj.b.t1": `Bioactive compounds`,
+    "proj.b.t2": `Antioxidant activity`,
+    "proj.b.t3": `Formulation`,
+    "proj.p.sub": `Food Processing Pilot Plant · UTM`,
+    "proj.p.b1": `<i class="ic ic-chef"></i> Pilot plant`,
+    "proj.p.b2": `4 product lines`,
+    "proj.p.title": `Product development in the pilot plant`,
+    "proj.p.desc": `More than 20 products made across four lines —meat, dairy, cereals, and fruits and vegetables—: from chorizo, fresh cheese and yogurt to bread, preserves and jams.`,
+    "proj.p.t1": `Meat products`,
+    "proj.p.t2": `Dairy`,
+    "proj.p.t3": `Baking`,
+    "proj.p.t4": `Preserves`,
+    "ev.label": `From process to product`,
+    "ev.title": `Evidence portfolio`,
+    "ev.desc": `More than 170 photos of my work in the pilot plant, the lab and industry, organized by project. Click any photo to enlarge it.`,
+    "ev.cta": `<i class="ic ic-images"></i> Open the full gallery`,
+    "sk.label": `Ingredients`,
+    "sk.title": `Skills`,
+    "sk.desc": `Technical skills applied in the pilot plant, the lab and industry.`,
+    "sk.g1": `Production & processes`,
+    "sk.t11": `Production process operation`,
+    "sk.t12": `Process control`,
+    "sk.t13": `Process standardization`,
+    "sk.t14": `Process optimization`,
+    "sk.t15": `Continuous improvement`,
+    "sk.t16": `Problem solving`,
+    "sk.g2": `Quality & food safety`,
+    "sk.t21": `Good Manufacturing Practices (GMP)`,
+    "sk.t22": `Quality control`,
+    "sk.t23": `Food safety`,
+    "sk.t24": `Quality tools`,
+    "sk.t25": `Packaging & labeling`,
+    "sk.g3": `Product development`,
+    "sk.t31": `Food & beverage formulation`,
+    "sk.t32": `Fermentation`,
+    "sk.t33": `Sensory evaluation`,
+    "sk.t34": `Consumer acceptance analysis`,
+    "sk.t35": `New products`,
+    "sk.g4": `Lab techniques`,
+    "sk.t41": `DPPH assay`,
+    "sk.t42": `Microfiltration`,
+    "sk.t43": `UV-Vis & IR spectrophotometry`,
+    "sk.t44": `Thin-layer & column chromatography`,
+    "sk.t45": `Physicochemical analysis`,
+    "sk.t46": `Milk platform tests`,
+    "sk.g5": `Product lines`,
+    "sk.t51": `Fermented beverages`,
+    "sk.t52": `Beer`,
+    "sk.t53": `Kombucha`,
+    "sk.t54": `Mead`,
+    "sk.t55": `Dairy`,
+    "sk.t56": `Meat products`,
+    "sk.t57": `Baking`,
+    "sk.t58": `Fruits & vegetables`,
+    "sk.g6": `Software & languages`,
+    "sk.t64": `English C1`,
+    "sk.t65": `Spanish (native)`,
+    "contact.label": `Let's talk`,
+    "contact.title": `Contact`,
+    "contact.desc": `I'm looking for opportunities in production, quality assurance and new product development in the food and beverage industry. Drop me a line!`,
+    "contact.cta": `<i class="ic ic-mail"></i> Send me a message`,
+    "contact.gal": `Evidence portfolio`,
+    "contact.galv": `photos`,
+    "contact.cvs": `Résumé (PDF)`,
+    "contact.svc": `How can I contribute?`,
+    "contact.svc1": `<i class="ic ic-factory"></i> Production & process operation`,
+    "contact.svc2": `<i class="ic ic-shield"></i> Quality & food safety`,
+    "contact.svc3": `<i class="ic ic-flask"></i> New product development`,
+    "contact.svc4": `<i class="ic ic-wine"></i> Fermented & functional beverages`,
+    "_badges": [
+      `<i class="ic ic-wine"></i> «Zumbido» mead · End-to-end development`,
+      `<i class="ic ic-cap"></i> Food Engineer · UTM`,
+      `<i class="ic ic-factory"></i> Production · Quality & food safety`,
+      `<i class="ic ic-beer"></i> Beer · Kombucha · Mead`,
+      `<i class="ic ic-flask"></i> New product R&D · EtnoFood`,
+      `<i class="ic ic-languages"></i> English C1 · Native Spanish`,
+    ],
+  },
+};
+</script>
+<script src="assets/js/gallery-data.js?v=4b8d4a59"></script>
+<script src="assets/js/site.js?v=20261014"></script>
+<script>
+// ═══ Rotating hero badge (home only) ═══
+const badgeColors = [
+  { bg:'rgba(233,162,31,.15)', bd:'rgba(233,162,31,.38)', c:'#F2B33C' },
+  { bg:'rgba(134,184,90,.15)', bd:'rgba(134,184,90,.38)', c:'#A8D47C' },
+  { bg:'rgba(239,108,79,.15)', bd:'rgba(239,108,79,.38)', c:'#F79A82' },
+  { bg:'rgba(214,150,80,.15)', bd:'rgba(214,150,80,.38)', c:'#E2B07A' },
+  { bg:'rgba(236,72,153,.14)', bd:'rgba(236,72,153,.36)', c:'#F5A3C7' },
+  { bg:'rgba(94,200,186,.14)', bd:'rgba(94,200,186,.36)', c:'#8FDCD0' },
+];
+const badge = document.getElementById('heroBadge');
+let bi = 0;
+
+function setBadge(i){
+  const list = window.PAGE_I18N[site.lang]._badges;
+  const col = badgeColors[i % badgeColors.length];
+  badge.style.background = col.bg;
+  badge.style.borderColor = col.bd;
+  badge.style.color = col.c;
+  badge.innerHTML = list[i % list.length];
+}
+
+document.addEventListener('langchange', () => { bi = 0; setBadge(0); });
+setBadge(0);
+
+setInterval(() => {
+  badge.style.opacity = '0';
+  setTimeout(() => {
+    bi = (bi + 1) % window.PAGE_I18N[site.lang]._badges.length;
+    setBadge(bi);
+    badge.style.opacity = '1';
+  }, 300);
+}, 2800);
+</script>
+</body>
+</html>

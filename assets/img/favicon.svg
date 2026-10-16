@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2C4A32"/>
+      <stop offset="1" stop-color="#15261A"/>
+    </linearGradient>
+    <linearGradient id="h" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2B33C"/>
+      <stop offset="1" stop-color="#C8462B"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <!-- Erlenmeyer flask filled with honey-coloured liquid and bubbles -->
+  <path d="M26 12h12M28 12v13L16 47a4 4 0 0 0 3.5 6h25A4 4 0 0 0 48 47L36 25V12" fill="none" stroke="#FFF6E0" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M22.6 37h18.8L46 45.6a2.6 2.6 0 0 1-2.3 3.9H20.3a2.6 2.6 0 0 1-2.3-3.9z" fill="url(#h)"/>
+  <circle cx="28" cy="43" r="2" fill="#FFF6E0" opacity=".85"/>
+  <circle cx="35" cy="40" r="1.4" fill="#FFF6E0" opacity=".75"/>
+  <circle cx="38" cy="45.5" r="1.2" fill="#FFF6E0" opacity=".7"/>
+  <circle cx="33" cy="31" r="1.5" fill="#F2B33C"/>
+  <circle cx="30.5" cy="24" r="1.1" fill="#F2B33C" opacity=".8"/>
+</svg>

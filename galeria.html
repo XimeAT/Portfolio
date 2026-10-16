@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#1F3524">
+<meta name="description" content="Portafolio de evidencias de Ximena Aragón Toledo: fotografías de su trabajo en planta piloto, laboratorio y empresa, organizadas por proyecto.">
+<title>Portafolio de evidencias | Ximena Aragón Toledo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css?v=20261014">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav id="nav">
+  <a href="index.html" class="nav-logo">Ximena<span>.</span></a>
+  <div class="nav-right">
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+      <li><a href="index.html#experiencia" data-i18n="nav.experience">Experiencia</a></li>
+      <li><a href="index.html#proyectos" data-i18n="nav.projects">Proyectos</a></li>
+      <li><a href="galeria.html" class="active" data-i18n="nav.gallery">Galería</a></li>
+      <li><a href="index.html#contacto" data-i18n="nav.contact">Contacto</a></li>
+    </ul>
+    <div class="lang-switch" role="group" aria-label="Language / Idioma">
+      <button class="lang-btn" data-lang="es" aria-label="Español">ES</button>
+      <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menú" data-i18n-attr="aria-label:nav.menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══ HEADER ═══ -->
+<header class="page-hero has-cover" style="view-transition-name:vt-galeria">
+  <div class="page-cover"><img src="assets/img/evidencias/cereales/img-5984-720.webp" srcset="assets/img/evidencias/cereales/img-5984-720.webp 720w, assets/img/evidencias/cereales/img-5984-1600.webp 1600w" sizes="100vw" alt="" width="720" height="720" decoding="async"></div>
+  <div class="container">
+    <div class="crumbs"><a href="index.html" data-i18n="crumb.home">Inicio</a><span>/</span><span data-i18n="crumb.gallery">Galería</span></div>
+    <span class="page-tag" data-i18n="g.tag"><i class="ic ic-camera"></i> Evidencias</span>
+    <h1 data-i18n="g.h1">Portafolio de evidencias</h1>
+    <p class="page-lead" data-i18n="g.lead">Fotografías de mi trabajo en planta piloto, laboratorio y empresa: del proceso al producto terminado, organizadas por proyecto. Haz clic en cualquier foto para ampliarla.</p>
+    <div class="page-meta">
+      <span class="chip"><i class="ic ic-images"></i> <span data-count>172</span> <span data-i18n="g.c1">fotografías</span></span>
+      <span class="chip" data-i18n="g.c2"><i class="ic ic-factory"></i> Planta piloto, laboratorio y empresa</span>
+      <span class="chip"><i class="ic ic-calendar"></i> 2024 – 2026</span>
+    </div>
+  </div>
+</header>
+
+<!-- ═══ GALLERY (built by site.js from assets/js/gallery-data.js) ═══ -->
+<div class="gal-bar"><div class="chips" role="toolbar" data-gal-filters></div></div>
+<main class="gal-page" data-gallery></main>
+
+<footer>
+  <p data-i18n="footer.by"><strong>Ximena Aragón Toledo</strong> · Ingeniera en Alimentos</p>
+  <p style="margin-top:.4rem;font-size:.78rem;opacity:.55" data-i18n="footer.loc">Oaxaca, México · 2026</p>
+</footer>
+
+<script>
+window.PAGE_I18N = {
+  en: {
+    "meta.title": `Evidence portfolio | Ximena Aragón Toledo`,
+    "meta.desc": `Evidence portfolio of Ximena Aragón Toledo: photos of her work in the pilot plant, the lab and industry, organized by project.`,
+    "g.tag": `<i class="ic ic-camera"></i> Evidence`,
+    "g.h1": `Evidence portfolio`,
+    "g.lead": `Photos of my work in the pilot plant, the lab and industry: from process to finished product, organized by project. Click any photo to enlarge it.`,
+    "g.c1": `photos`,
+    "g.c2": `<i class="ic ic-factory"></i> Pilot plant, lab and industry`,
+  },
+};
+</script>
+<script src="assets/js/gallery-data.js?v=4b8d4a59"></script>
+<script src="assets/js/site.js?v=20261014"></script>
+</body>
+</html>
